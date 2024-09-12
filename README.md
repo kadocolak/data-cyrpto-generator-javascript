@@ -12,7 +12,7 @@ First, you need to put the raw data into a variable and then choose a keyword (a
 
 Then, the encrypted data, that is, the encryptedMessage variable in the example above, should be called with the same private code value and you should access the original, unencrypted form of the data.
 
-**var decryptedMessage = advancedDecrypt(encryptedMessage, key);** 
+**var decryptedMessage = advancedDecrypt(encryptedMessage, "your private code");** 
 
 ## Why do I enter a special code?
 
