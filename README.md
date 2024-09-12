@@ -8,11 +8,11 @@ You may not want to write the words & numbers that you use on the web page that 
 
 First, you need to put the raw data into a variable and then choose a keyword (a kind of code) that you want and combine the raw data with this code and send it to the function called advancedEncrypt.
 
-var encryptedMessage = advancedEncrypt("real data", "your private code");
+	* * var encryptedMessage = advancedEncrypt("real data", "your private code"); 	* *
 
 Then, the encrypted data, that is, the encryptedMessage variable in the example above, should be called with the same private code value and you should access the original, unencrypted form of the data.
 
-var decryptedMessage = advancedDecrypt(encryptedMessage, key);
+	* * var decryptedMessage = advancedDecrypt(encryptedMessage, key); 	* *
 
 ## Why do I enter a special code?
 
